@@ -1,0 +1,81 @@
+/*
+Name:             Aliyu B. Zakari,
+UMS:              01190914
+Major:            Computer Science Major
+Email:            aliyu_zakari@student.uml.edu
+School:           UMass Lowell Computer Science,
+Course:           91.61 GUI Programming I, Sec 201
+Assignment:       2
+Date of Creation: Sept 12, 2016
+
+Documentation:
+ 
+Due to the methods I was using for the first time for
+ this assignment was deemed dated, I opted to making
+ a css file, which gave me the chance to explore it.
+ In this css file, I created the styles for the following
+ attributes,
+ 
+ -body : which i set so that it it sets all the text
+ in the webpage white. I also used it to align everything
+ on the two webpages to the center. I also used it to 
+ set the background of the webpages white.
+ 
+
+ -h1, h2, th and /datat : made them to set the color
+ and font sizes.
+ 
+ -img : used it to set all the images on the webpages to
+ 50% of the width and auto for the height
+ 
+ - iconin : is for the icons at the stop of the page
+ setting their sizes.
+ 
+*/
+
+body {
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 56px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    
+}
+
+.iconin {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+table, {
+    border: 0px;
+}
+
+th {
+    font-size: 32px;
+    color: white;
+
+}
+
+.datat {
+    color: white;
+    font-size: 56px;
+}
+

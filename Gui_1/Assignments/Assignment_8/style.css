@@ -1,0 +1,113 @@
+/*
+ Name:             Aliyu B. Zakari,
+ UMS:              01190914
+ Major:            Computer Science Major
+ Email:            aliyu_zakari@student.uml.edu
+ School:           UMass Lowell Computer Science,
+ Course:           91.61 GUI Programming I, Sec 201
+ Assignment:       6
+ 
+ 
+ Documentation:
+ This assignment goal is making a muliplcation table using Javascript.
+ 
+ */
+
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+    text-align:center;
+    min-width: 300px;
+    border:solid;
+    border-color: white;
+    border-width:2px;
+}
+
+ol{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+p{
+    max-width: 600px;
+    min-width: 300px;
+}
+
+input{
+    margin:5px;
+    width: 100px;
+}
+
+/*styling for multable and its data */
+#multTable tr td, #multTable th, #multTable{
+    border:1px solid;
+    border-color:white;
+    border-collapse: collapse;
+    padding:3px;
+}
+
+
+#multTable{
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    
+}
+
+/*center all elements in container */
+#container{
+    
+    text-align:center;
+}
+
+/*center elements of form div */
+#form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*allow scrolling and set max dims of scroll */
+#scroll{
+    overflow:auto;
+    max-width:590px;
+    max-height:590px;
+    margin:10px;
+}
+
+/*make headings for table look different from data*/
+.theader{
+    font-weight:800;
+    background-color: green;
+}
+
+.theader2{
+    font-weight:800;
+    background-color: red;
+}
+
+#errorContainer {
+    display: none;
+    overflow: auto;
+    background-color: #FFDDDD;
+    border: 1px solid #FF2323;
+    padding-top: 0;
+}
+#errorContainer label {
+    float: none;
+    width: auto;
+}
+input.error {
+    border: 1px solid #FF2323;
+}
