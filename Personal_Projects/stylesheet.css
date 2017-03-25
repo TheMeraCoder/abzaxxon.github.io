@@ -1,18 +1,11 @@
 /*
- Name:             Aliyu B. Zakari
- username:         azakari@cs.uml.edu
- website:          http://www.cs.uml.edu/~azakari/
- UMS:              01190914
- Major:            Computer Science Major
- Email:            aliyu_zakari@student.uml.edu
- School:           UMass Lowell Computer Science,
- Course:           91.61 GUI Programming I, Sec 201
+
  */
 
 html, body {
     margin: 0;
     padding: 0;
-	background:rgb(0, 0, 0);
+    background:rgb(0, 0, 0);
 }
 
 .a{
@@ -54,7 +47,7 @@ a:link, a:hover, a:visited  {
 }
 
 .container-fluid{
-	background: black;
+    background: black;
 }
 
 footer{
