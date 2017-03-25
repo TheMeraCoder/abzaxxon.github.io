@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AC0D65A91E841940000D2249 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		AC0D65AA1E841CD9000D2249 /* stylesheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
-		AC0D65AD1E841DA8000D2249 /* Gui_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gui_1; sourceTree = "<group>"; };
+		ACB215BC1E86AEB40016FFD0 /* Personal_Projects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Personal_Projects; sourceTree = "<group>"; };
+		ACB215BD1E86AEB40016FFD0 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		ACB215BE1E86AEB40016FFD0 /* School_Projects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = School_Projects; sourceTree = "<group>"; };
+		ACB215BF1E86AEB40016FFD0 /* homepage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = homepage.js; sourceTree = "<group>"; };
+		ACB215C01E86AEB40016FFD0 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		ACB215C11E86AEB40016FFD0 /* stylesheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		AC0D65A21E8418B0000D2249 = {
 			isa = PBXGroup;
 			children = (
-				AC0D65AD1E841DA8000D2249 /* Gui_1 */,
-				AC0D65AA1E841CD9000D2249 /* stylesheet.css */,
-				AC0D65A91E841940000D2249 /* index.html */,
+				ACB215BC1E86AEB40016FFD0 /* Personal_Projects */,
+				ACB215BD1E86AEB40016FFD0 /* Resources */,
+				ACB215BE1E86AEB40016FFD0 /* School_Projects */,
+				ACB215BF1E86AEB40016FFD0 /* homepage.js */,
+				ACB215C01E86AEB40016FFD0 /* index.html */,
+				ACB215C11E86AEB40016FFD0 /* stylesheet.css */,
 			);
 			sourceTree = "<group>";
 		};
